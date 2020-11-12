@@ -1,8 +1,8 @@
 <?php
 
-include ("db/conexion.php");
+include ("../db/conexion.php");
 
-$sql = "INSERT INTO usuarios (id_tipo_usuario, nombre_usuario, password) VALUES (1, 'John Doe', '123')";
+$sql = "INSERT INTO usuarios (id_tipo_usuario, nombre_usuario, password) VALUES (1, 'John', '123')";
 
 $query = mysqli_query($conexion, $sql);
 

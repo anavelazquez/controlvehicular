@@ -1,10 +1,11 @@
 <?php
 	$conexion = mysqli_connect("localhost","root","","vehicular");
+	//$conexion = mysqli_connect("localhost","root","","control_vehicular");
 
 if(!$conexion)
 	{
 		echo 'error No:'.mysqli_connect_errno();
-	
+		
 		echo 'error Description'.mysqli_connect_error();
 	}
 
