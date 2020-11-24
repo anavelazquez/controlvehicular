@@ -24,10 +24,11 @@
 				<input id="password" name="password" type="password"class="form-control" placeholder="Password" required></input>
 				<label for="password">Contraseña</label>
 			</div>
+			
 			<div class="checkbox mb-3">
-    		<label>
-     		 <input type="checkbox" value="remember-me"> Recordar
-    		</label>
+    			<label>
+     		 		<input type="checkbox" value="remember-me"> Recordar
+    			</label>
  			 </div>
 			<button type="submit" class="btn btn-lg btn-primary btn-block"><i class="fas fa-sign-in-alt"> </i>Entrar</button>
 		</form>
