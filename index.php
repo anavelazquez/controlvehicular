@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="esp">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 		<title>Login SISCV</title>

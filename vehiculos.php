@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="esp">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -55,7 +55,6 @@
   <section class="jumbotron text-center">
     <div class="container">
       <h1>Catalogo de Vehiculos</h1>
-     
     </div>
   </section>
 </main>
