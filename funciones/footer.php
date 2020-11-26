@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="esp">
+<html lang="es">
 <footer class="text-muted">
   <div class="container">
     <p class="float-right">
