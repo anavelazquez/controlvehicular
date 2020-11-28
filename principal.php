@@ -1,9 +1,8 @@
 <?php
 session_start();
-if ($_SESSION["logeado"])
-{
-$nombreuser=$_SESSION["ingresado"];
-$tipousuario=$_SESSION["tipo_usuario"];
+if($_SESSION["ingresado"] != ''){
+    $nombreuser=$_SESSION["ingresado"];
+    $tipousuario=$_SESSION["tipo_usuario"];
 ?>
 
 <!doctype html>
@@ -81,7 +80,7 @@ $tipousuario=$_SESSION["tipo_usuario"];
                     <?php
                       if ($tipousuario == 1){
 
-                    
+
                     ?>
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
@@ -119,5 +118,8 @@ $tipousuario=$_SESSION["tipo_usuario"];
 <?php
 //mostramos el footer
 require_once('funciones/footer.php');
-                }
+}else{
+    header("Location:index.php");
+    exit;
+}
 ?>
